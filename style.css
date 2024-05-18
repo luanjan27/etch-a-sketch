@@ -5,19 +5,35 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
+  background-color: #eee;
 }
 .container{
   display: flex;
-  border: 2px solid black;
+  border:3px solid black;
   width: 600px;
   height: 600px;
   flex-wrap: wrap;
-  
 
 }
 .container div{
-  border: 1px solid black;
+  border:1px solid gray;
+  
+}
+.slider_container{
+  display: flex;
+  gap: 30px;
+}
+.slider_container div{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.buttons{
+  display: flex;
+  gap: 25px;
+
+}
+button{
+  padding: 4px 8px;
 }
