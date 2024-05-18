@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 40px;
+}
+.container{
+  display: flex;
+  border: 2px solid black;
+  width: 600px;
+  height: 600px;
+  flex-wrap: wrap;
+  
+
+}
+.container div{
+  border: 1px solid black;
+}
