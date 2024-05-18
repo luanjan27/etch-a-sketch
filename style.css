@@ -3,12 +3,15 @@
 }
 body{
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 95vh;
   flex-direction: column;
   gap: 20px;
   background-color: #eee;
+  font-family: monospace;
+  font-size: 16px;
+  margin-top: 35px;
+  
 }
 .container{
   display: flex;
@@ -16,7 +19,7 @@ body{
   width: 600px;
   height: 600px;
   flex-wrap: wrap;
-
+  
 }
 .container div{
   border:1px solid gray;
@@ -26,9 +29,7 @@ body{
   display: flex;
   gap: 30px;
 }
-.slider_container div{
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
+
 .buttons{
   display: flex;
   gap: 25px;
@@ -36,4 +37,10 @@ body{
 }
 button{
   padding: 4px 8px;
+  font-family: monospace;
+}
+.footer{
+  display: flex;
+  font-size: 16px;
+  margin-top: auto;
 }
